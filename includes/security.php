@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 /**
  * Security Functions
  * SRMS v2.0.0
@@ -298,19 +300,16 @@ function validateFileUpload($file, $allowed_extensions, $max_size) {
     }
     
     // Check for upload errors
-    switch ($file['error']) {
-        case UPLOAD_ERR_OK:
-            break;
-        case UPLOAD_ERR_INI_SIZE:
-        case UPLOAD_ERR_FORM_SIZE:
-            $result['error'] = 'File size exceeds limit.';
-            return $result;
-        case UPLOAD_ERR_NO_FILE:
-            $result['error'] = 'No file was uploaded.';
-            return $result;
-        default:
-            $result['error'] = 'Unknown upload error.';
-            return $result;
+    $upload_error = match ($file['error']) {
+        UPLOAD_ERR_OK => null,
+        UPLOAD_ERR_INI_SIZE, UPLOAD_ERR_FORM_SIZE => 'File size exceeds limit.',
+        UPLOAD_ERR_NO_FILE => 'No file was uploaded.',
+        default => 'Unknown upload error.',
+    };
+
+    if ($upload_error !== null) {
+        $result['error'] = $upload_error;
+        return $result;
     }
     
     // Check file size

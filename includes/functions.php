@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 /**
  * Utility Functions
  * SRMS v2.0.0
@@ -478,16 +480,12 @@ function getSetting($conn, $key, $default = null) {
     $type = $row['setting_type'];
     
     // Convert based on type
-    switch ($type) {
-        case 'number':
-            return (float) $value;
-        case 'boolean':
-            return (bool) $value;
-        case 'json':
-            return json_decode($value, true);
-        default:
-            return $value;
-    }
+    return match ($type) {
+        'number' => (float) $value,
+        'boolean' => (bool) $value,
+        'json' => json_decode($value, true),
+        default => $value,
+    };
 }
 
 /**

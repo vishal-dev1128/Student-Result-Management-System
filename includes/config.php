@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 /**
  * Database Configuration File
  * SRMS v2.0.0

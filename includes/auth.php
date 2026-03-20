@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 /**
  * Authentication Middleware
  * Handles role-based access control and session validation
