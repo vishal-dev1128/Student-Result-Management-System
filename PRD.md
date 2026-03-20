@@ -193,8 +193,8 @@ Base unit: `8px` — xs: 4px | sm: 8px | md: 16px | lg: 24px | xl: 32px | 2xl: 4
 
 | Component | Technology |
 |-----------|-----------|
-| Backend | PHP 7.4+ (OOP-lite, procedural helpers) |
-| Database | MySQL 5.7+ / MariaDB 10.3+ |
+| Backend | PHP 8.2+ (OOP-lite, procedural helpers) |
+| Database | MySQL 8.0+ / MariaDB 10.11+ |
 | Frontend | HTML5, Vanilla CSS3, Vanilla JavaScript |
 | Design | Material Design-inspired, custom CSS variables |
 | Icons | Font Awesome 6.5.1 |

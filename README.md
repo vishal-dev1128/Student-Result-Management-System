@@ -1,7 +1,7 @@
 # 🎓 Student Result Management System (SRMS)
 
-[![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-777bb4?style=for-the-badge&logo=php)](https://www.php.net/)
-[![MySQL Version](https://img.shields.io/badge/MySQL-5.7%2B-4479a1?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
+[![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777bb4?style=for-the-badge&logo=php)](https://www.php.net/)
+[![MySQL Version](https://img.shields.io/badge/MySQL-8.0%2B-4479a1?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Premium UI](https://img.shields.io/badge/UI-Premium-blueviolet?style=for-the-badge)](https://github.com/yourusername/srms)
 
@@ -56,7 +56,7 @@ A modern, high-performance, and secure **Student Result Management System** desi
 
 ### 1. Requirements
 - **Server:** XAMPP / WAMP / LAMP (Apache + MySQL)
-- **PHP:** 7.4 or higher
+- **PHP:** 8.2 or higher
 - **Browser:** Modern browsers (Chrome, Firefox, Safari, Edge)
 
 ### 2. Database Setup
