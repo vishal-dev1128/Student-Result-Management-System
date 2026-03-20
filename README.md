@@ -2,8 +2,8 @@
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777bb4?style=for-the-badge&logo=php)](https://www.php.net/)
 [![MySQL Version](https://img.shields.io/badge/MySQL-8.0%2B-4479a1?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Premium UI](https://img.shields.io/badge/UI-Premium-blueviolet?style=for-the-badge)](https://github.com/yourusername/srms)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg?style=for-the-badge)](LICENSE)
+[![Premium UI](https://img.shields.io/badge/UI-Premium-blueviolet?style=for-the-badge)](https://github.com/vishal-dev1128/Student-Result-Management-System)
 
 A modern, high-performance, and secure **Student Result Management System** designed for educational institutions. Built with a focus on professional aesthetics, security, and ease of use.
 
@@ -106,7 +106,9 @@ define('DB_PASS', 'your_password'); // Standard XAMPP is empty ''
 ---
 
 ## 📄 License
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+**© 2026 Vishal Pawar. All Rights Reserved.**
+
+This is proprietary software. You may not use, copy, modify, or distribute this codebase without explicit written permission from the author. See the [LICENSE](LICENSE) file for full legally binding details.
 
 ---
 
