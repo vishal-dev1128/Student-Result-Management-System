@@ -1,0 +1,23 @@
+# Database & Config
+includes/config.php
+database/*.sql
+
+# System Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log
+*.zip
+*.rar
+
+# XAMPP/Logs
+error_log
+access_log
+
+# Documentation
+# Keep everything in /docs as it contains screenshots for the README
+!/docs/*.png
+!/docs/*.jpg
+!/docs/*.jpeg
+!/docs/*.gif
