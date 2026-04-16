@@ -19,7 +19,7 @@
 
 <p align="center">
   <h2>🛒 Get the Full Source Code</h2>
-  <a href="[https://vishaldev1.gumroad.com/l/course-management-system](https://vishaldev1.gumroad.com/l/student-result-management-system)"> <!-- Keeping their link structure but user should update if needed -->
+  <a href="https://vishaldev1.gumroad.com/l/student-result-management-system"> <!-- Keeping their link structure but user should update if needed -->
     <img src="https://img.shields.io/badge/Get_Full_Source_Code-ff90e8?style=for-the-badge&logo=gumroad&logoColor=black" alt="Buy Source Code" />
   </a>
   <br/>
